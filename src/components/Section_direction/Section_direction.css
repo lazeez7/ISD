@@ -1,0 +1,51 @@
+.block_1{
+    padding: 20px 0;
+}
+
+.direction_banner {
+  width: 100%;
+  background-color: #499dff;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  padding: 60px 30px;
+  text-align: start;
+  gap: 15px;
+  color: aliceblue;
+  h1 {
+    font-weight: 910px;
+    font-size: 30px;
+  }
+  p {
+    font-weight: 910px;
+    font-size: 20px;
+  }
+}
+.cards_1 {
+  width: 100%;
+  text-align: start;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+  gap: 10px;
+  padding: 20px 0;
+
+  @media (max-width:880) {
+    
+  }
+}
+.card_1 {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  background-color: #d9eafd;
+  border-radius: 24px;
+  padding: 20px;
+  img {
+    background: none;
+    max-width: 73px;
+  }
+  h3 {
+    font-weight: 910px;
+    font-size: 28px;
+  }
+}

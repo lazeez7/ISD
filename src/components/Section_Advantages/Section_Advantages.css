@@ -1,0 +1,75 @@
+.jiddiy {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 20px 0;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.banner_score {
+  padding: 30px;
+  height: max-content;
+  margin-top: 60px;
+  width: 100%;
+  background: #499dff;
+  border-radius: 30px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  h3 {
+    max-width: 150px;
+    width: 100%;
+    padding: 15px;
+    background: #fff;
+    border-radius: 30px;
+    color: #499dff;
+    text-align: center;
+  }
+  h1 {
+    font-weight: 600;
+    font-size: clamp(1.25rem, -0.625rem + 2.5vw, 2.5rem);
+    color: #fdfdfd;
+  }
+}
+.infas {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  img {
+    background: none;
+    max-width: 65px;
+  }
+}
+.infas_1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #fdfdfd;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.521);
+  p {
+    font-weight: 600;
+    font-size: 19px;
+  }
+}
+.banner_srm {
+  max-width: 800px;
+  width: 100%;
+  /* background: #d9eafd; */
+  border-radius: 30px;
+  /* padding: 10px 0 80px; */
+  img {
+    background: none;
+    max-width: 800px;
+  }
+  @media (max-width: 960px) {
+    .banner_ssrm {
+      max-width: 540px;
+      width: 100%;
+      padding-top: 90px;
+    }
+  }
+}
